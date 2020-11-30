@@ -1,0 +1,210 @@
+From linux at home
+---------------------------------------------------------------------------------------------------------------
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.0 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+Amount of packets correctly received by receiver: 300
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 1136
+The total file transfer lasted for: 0.145672 seconds 
+for a throughput of 16828711.076940 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+file_size = 306434, seq_acum = 306434 and packet number = 300
+send acknowledgement...
+All packets have been received
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.01 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 1828
+The total file transfer lasted for: 0.184163 seconds 
+for a throughput of 13311425.204846 bits per second
+
+
+receiver
+./receiver 6789 picture.jpg
+
+file_size = 306434, seq_acum = 306434 and packet number = 300
+send acknowledgement...
+All packets have been received
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.02 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 2005
+The total file transfer lasted for: 0.209011 seconds 
+for a throughput of 11728913.789226 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.03 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 2878
+The total file transfer lasted for: 0.431952 seconds 
+for a throughput of 5675334.296403 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.04 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 1940
+The total file transfer lasted for: 0.223458 seconds 
+for a throughput of 10970616.402187 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.05 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 3928
+The total file transfer lasted for: 0.299046 seconds 
+for a throughput of 8197641.834367 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.06 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 3112
+The total file transfer lasted for: 0.310433 seconds 
+for a throughput of 7896943.946037 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+first try : segmentation fault at packet 177 (Fixed this error later. Supposed did not free packet)
+second try: successful
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.07 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 3276
+The total file transfer lasted for: 0.333445 seconds 
+for a throughput of 7351953.095713 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+first try : segmentation fault at packet 181 (Fixed this error later. Supposed did not free packet)
+second try: successful
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.08 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 4419
+The total file transfer lasted for: 0.422238 seconds 
+for a throughput of 5805900.937386 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.09 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 6882
+The total file transfer lasted for: 0.536235 seconds 
+for a throughput of 4571637.435080 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.10 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 5596
+The total file transfer lasted for: 0.759246 seconds 
+for a throughput of 3228824.386299 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+---------------------------------------------------------------------------------------------------------------
+
+twister:
+./twister 6788 localhost 6787 localhost 6789 0.11 0.0 0.0 0
+
+sender:
+/sender 6787 localhost 6788 andromeda.jpg 100
+
+The file has been sent completely to the receiver
+Packets lost during transaction: 4955
+The total file transfer lasted for: 0.553270 seconds 
+for a throughput of 4430878.233051 bits per second
+
+receiver
+./receiver 6789 picture.jpg
+
+
